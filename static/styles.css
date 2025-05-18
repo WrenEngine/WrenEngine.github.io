@@ -4,6 +4,7 @@
     --accent: #88c0d0;  /* icy blue */
     --link: #81a1c1;    /* lighter blue */
     --mono: "JetBrains Mono", monospace;
+    --navbar-link: #eceff4;
   }
   
   body {
@@ -35,6 +36,7 @@
     color: var(--bg);
     margin: 0 1rem;
     font-weight: bold;
+    display: inline-flex;
   }
   
   main {
@@ -65,5 +67,84 @@
   
   .btn-try-wren:hover {
     opacity: 0.8;
+  }
+  
+  img {
+    padding: 0%;
+    margin: 0%;
+  }
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 2rem;
+    background-color: #111;
+    color: #f0f0f0;
+  }
+  
+  .hero-left {
+    flex: 1;
+  }
+  
+  .hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-right img {
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  .btn.disabled {
+    background-color: #333;
+    cursor: not-allowed;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem 4rem;
+  }
+  
+  .nav-logo {
+    height: 48px; /* bigger but not overpowering */
+    width: auto;
+    margin-right: 10%; /* pushes the rest of nav links to the right */
+    margin-left: 0;
+  }
+  
+  .nav-highlight {
+    color: var(--navbar-link);
+    font-weight: bold;
+    border-bottom: 2px solid var(--navbar-link);
+    font-style: italic;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    opacity: 0.85;
   }
   

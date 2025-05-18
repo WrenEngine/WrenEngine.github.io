@@ -1,9 +1,18 @@
 {% extends "base.html" %}
 
-{% block title %}{{ section.title }} | {{ config.title }}{% endblock title %}
-
 {% block content %}
-<article>
-  {{ section.content | safe }}
-</article>
+<section class="hero">
+  <div class="hero-left">
+    <h1>🪶 {{ section.title }}</h1>
+    <p>{{ section.content | safe }}</p>
+    <div class="hero-buttons">
+      <a href="/roadmap" class="btn">📍 Roadmap</a>
+      <a href="/getting-started" class="btn">🚀 Get Started</a>
+      <a href="#" class="btn disabled">🧪 Try Wren (Coming Soon)</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="/img/wren_logo_dark.svg" alt="Wren Engine Logo"/>
+  </div>
+</section>
 {% endblock content %}
