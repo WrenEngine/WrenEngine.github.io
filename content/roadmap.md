@@ -3,9 +3,6 @@ title = "Roadmap"
 template = "page.html"
 +++
 
-
-
-
 # 🚀 Wren Engine Roadmap 🎮✨
 
 Here’s a rough idea of where Wren is going. Think of this as your public game plan.
