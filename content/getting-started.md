@@ -3,29 +3,24 @@ title = "🚀 Getting Started"
 template = "page.html"
 +++
 
-Welcome to **Wren Engine** — a modular, fast, and creative-first game engine.
-
-This page will help you get up and running, whether you're a programmer, an artist, or just someone with game dev dreams.
+Welcome to **Wren Engine** — a modular, fast, and creative-first game engine designed for everyone.
 
 ---
 
-## 🛠️ For Developers
+## Quickstart for Developers
 
-### 1. Clone the engine
+Clone the repo and explore:
 
 ```bash
 git clone https://github.com/WrenEngine/wren.git
 cd wren
 ```
+For full setup, contribution guidelines, and dev workflow, check out our README on GitHub.
 
-### 2. Check out the [Wren Issues](https://github.com/WrenEngine/wren/issues)
+## For Everyone Else
 
-### 3. implement a feature, fix a bug, or make improvements!
-
-### 4. Submit a Pull Request!
+Don’t worry if coding isn’t your thing yet! We're building visual tools and tutorials to get you creating soon. Stay tuned!
 
 ---
 
-## 😁 For Everyone else
-
-### Coming soon! 🚀
+Got questions or want to join the community? Find us on Discord (coming soon) or watch this space for updates.

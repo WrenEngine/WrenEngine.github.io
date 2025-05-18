@@ -3,53 +3,79 @@ title = "Roadmap"
 template = "page.html"
 +++
 
-# 🚀 Wren Engine Roadmap 🎮✨
+# Roadmap
 
-Here’s a rough idea of where Wren is going. Think of this as your public game plan.
+🚀 **Wren Engine Roadmap** 🎮✨
 
-## ⚙️ Core
+Here’s a rough idea of where Wren is going. This is your public, transparent game plan for building a modern, modular game engine that doesn’t get in your way.
 
-[x] 🏗️ Project setup & Rust workspace initialized  
-[ ] 🎨 Rendering pipeline  
-[ ] 🎮 Input handling  
-[ ] 🌳 Scene graph & entity system  
-[ ] 🐞 Debugging tools & logging support  
+---
 
-## 🖋️ Scripting
+## ⚙️ Core Engine
 
-[ ] ✍️ Design Wren scripting language  
-[ ] 🛠️ Implement interpreter/JIT & API bindings  
-[ ] 🔍 Script error handling & debugging  
+- [x] 🏗️ Project setup & Rust workspace initialized
+- [ ] 🎨 Rendering pipeline (2D first, modular design for 3D later)
+- [ ] 🎮 Input handling (keyboard, mouse, gamepad)
+- [ ] 🌳 Scene graph & entity/component system
+- [ ] 🐞 Debugging tools, logging, diagnostics overlay
+- [ ] 🧪 Test suite for engine modules
 
-## 🎨 Visual Scripting
+---
 
-[ ] 🧩 Design node-based visual scripting system  
-[ ] 🖱️ Build visual editor prototype  
-[ ] 🔗 Bind nodes to Wren scripting backend  
-[ ] 🎲 Create common gameplay nodes  
-[ ] 💾 Save/load visual scripts  
-[ ] ♿ Accessibility features for non-coders  
+## 🖋️ Scripting (WrenLang)
 
-## 🛠️ Editor & Tooling
+- [ ] ✍️ Design & spec for Wren scripting language
+- [ ] ⚡ Fast interpreter or JIT + native API bindings
+- [ ] 🔧 Tooling: Hot reload, REPL, editor integration
+- [ ] 🧠 Introspection & debug info
+- [ ] 🔍 Error reporting, stack traces, editor-side script debugging
 
-[ ] 🏢 Develop Wren Studio editor environment  
-[ ] 📁 Asset management & import pipeline  
-[ ] 👁️ Scene editor with live preview  
-[ ] 🔌 Plugin system for editor extensions  
-[ ] 🔄 Version control integration  
+---
+
+## 🎨 Visual Scripting (Wren Nodes)
+
+- [ ] 🧩 Node-based visual scripting design
+- [ ] 🖱️ Drag-and-drop prototype in Wren Studio
+- [ ] 🔗 Node execution binds to scripting backend
+- [ ] 🎲 Common nodes: conditionals, loops, animation, physics, audio
+- [ ] 💾 Save/load scripts as assets
+- [ ] ♿ UX pass for accessibility (non-coders, colorblind modes, etc.)
+
+---
+
+## 🛠️ Editor & Tooling (Wren Studio)
+
+- [ ] 🏢 Wren Studio: lightweight native editor (Rust + egui or GTK)
+- [ ] 📁 Asset manager & import pipeline (textures, audio, fonts)
+- [ ] 👁️ Scene editor with live preview & scripting hooks
+- [ ] 🔌 Modular plugin system
+- [ ] 🔄 Git-friendly project structure & VCS integration
+- [ ] 🧰 Integrated terminal & debugging console
+
+---
 
 ## 🌐 Community & Ecosystem
 
-[-] 🌍 Website, docs & tutorials  
-[ ] 💬 Community forums & Discord  
-[ ] 📦 Package manager / asset store (future)  
-[ ] 🤝 Open source contributions & governance  
-[ ] 📣 Marketing & outreach  
+- [x] 🌍 Website + Zola-based docs & tutorials
+- [ ] 📖 API reference documentation (auto-generated)
+- [ ] 💬 Launch Discord server + forum-style Q&A
+- [ ] 📦 Crate-based package/asset sharing (via Git or future store)
+- [ ] 🤝 Open source contribution guide & governance model
+- [ ] 📣 Devlogs, release notes, and engine showcase section
 
-## 🔮 Future Ideas
+---
 
-[ ] 🌐 Multiplayer framework  
-[ ] 🤖 AI behavior tree integration  
-[ ] 🕶️ VR/AR support  
-[ ] 📱 Mobile deployment  
-[ ] ☁️ Cloud build & testing pipelines  
+## 🔮 Future / Stretch Goals
+
+- [ ] 🌐 Multiplayer framework (ECS/network sync or rollback)
+- [ ] 🤖 AI: State machine, behavior trees, navmesh tools
+- [ ] 🕶️ VR/AR hooks for open standards (WebXR, OpenXR)
+- [ ] 📱 Mobile build/export templates (Android/iOS)
+- [ ] ☁️ Cloud builds / Web-based playground / Online IDE
+- [ ] 💻 CLI tools for builds, asset pipelines, and CI support
+
+---
+
+*Got an idea? Open an issue on GitHub or hit us up on Discord.*
+
+🪶 **Wren is built to empower creators.** Let’s build something better.
