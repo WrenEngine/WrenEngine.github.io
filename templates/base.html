@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/features/">Features</a>
+            <a href="/roadmap/">Roadmap</a>
+            <button disabled class="btn-try-wren" title="Coming Soon">Try Wren</button>
+          </nav>          
+    </header>
+
+    <main>
+        <div class="container">
+          {% block content %}{% endblock content %}
+        </div>
+      </main>
+      
+    <footer>
+      <p>© 2025 Wren Engine. MPL licensed.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+:root {
+    --bg: #2e3440;      /* dark blue-gray */
+    --fg: #d8dee9;      /* light gray */
+    --accent: #88c0d0;  /* icy blue */
+    --link: #81a1c1;    /* lighter blue */
+    --mono: "JetBrains Mono", monospace;
+  }
+  
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--mono), monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: var(--link);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header, footer {
+    background-color: var(--accent);
+    color: var(--bg);
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: var(--bg);
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+  
+  h1, h2, h3 {
+    color: var(--accent);
+  }
+  
+  .btn-try-wren {
+    background-color: #555;  /* muted grey */
+    color: #ccc;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: not-allowed;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+  }
+  
+  .btn-try-wren:hover {
+    opacity: 0.8;
+  }
+  

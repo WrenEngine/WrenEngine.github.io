@@ -1,0 +1,11 @@
+title = "Wren Engine"
+description = "A modern game engine written in Rust."
+base_url = "https://wrenengine.github.io/"
+compile_sass = false
+minify_html = true
+
+[markdown]
+highlight_code = true
+
+[extra]
+# Optional site-wide data
