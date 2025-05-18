@@ -13,3 +13,7 @@ else
     echo "🌐 Building site..."
     zola build -o docs --force  
 fi
+if [[ "$2" == "--push" ]]; then
+    echo "Pushing to remote"
+    git push
+fi

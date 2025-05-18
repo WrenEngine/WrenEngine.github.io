@@ -6,12 +6,17 @@ template = "index.html"
 
 # Wren Game Engine
 
-A lightweight, modular, and modern game engine written in Rust.  
-Designed for performance, clarity, and complete creative control.
+🪶 Meet Wren
 
-- 🚀 Built with Rust for safety and speed  
-- 🔩 Modular, explicit design  
-- 🎮 Focused on 2D (and eventually 3D) game dev  
-- 💡 Open source and developer friendly
+Wren is a game engine that doesn’t make you fight it.  
+It’s built for speed, clarity, and actual creative control — not menus buried in menus.
 
-[View Roadmap](/roadmap)
+- 🚀 Rust core = fast + safe  
+- 🔩 Explicit architecture = no black boxes  
+- 🎮 Easy 2D now, clean path to 3D later  
+- 🖱️ Visual scripting coming = no need to learn Rust just to prototype  
+- 💾 Small. Lightweight. No 100GB installs.
+
+Whether you’re a programmer, artist, or somewhere in between — Wren is built to get out of your way and help you create.
+
+[Check out the Roadmap](/roadmap)

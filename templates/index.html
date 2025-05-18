@@ -2,17 +2,27 @@
 
 {% block content %}
 <section class="hero">
-  <div class="hero-left">
-    <h1>🪶 {{ section.title }}</h1>
-    <p>{{ section.content | safe }}</p>
-    <div class="hero-buttons">
-      <a href="/roadmap" class="btn">📍 Roadmap</a>
-      <a href="/getting-started" class="btn">🚀 Get Started</a>
-      <a href="#" class="btn disabled">🧪 Try Wren (Coming Soon)</a>
-    </div>
-  </div>
-  <div class="hero-right">
-    <img src="/img/wren_logo_dark.svg" alt="Wren Engine Logo"/>
+  <div class="hero-content">
+    <img src="img/wren_logo_dark.svg" alt="Wren Logo" class="hero-logo">
+
+    <h1>🪶 Meet Wren</h1>  
+    <p><strong>Wren is a game engine that doesn't fight you.</strong><br>
+    It’s fast, modern, and puts creative control back where it belongs — in your hands.</p>
+
+    <ul>
+      <li>🚀 <strong>Built with Rust</strong> — performance and safety by default</li>
+      <li>🔩 <strong>Explicit architecture</strong> — no hidden magic, no guesswork</li>
+      <li>🎮 <strong>2D first</strong>, with clean pathways to 3D support</li>
+      <li>🖱️ <strong>Visual scripting</strong> (soon) — prototype without writing Rust</li>
+      <li>💾 <strong>Tiny footprint</strong> — forget 100GB installs</li>
+      <li>🧩 <strong>Modular + extensible</strong> — add only what you need, use any crate</li>
+    </ul>
+
+    <p>Programmers. Artists. Designers. Beginners. Wren is for all of you.<br>
+    It’s a tool that helps you build — not one you have to wrestle with.</p>
+
+    <a class="btn" href="/roadmap/">🚧 Check the Roadmap</a>
+    <a class="btn disabled" href="#">🧪 Try Wren (coming soon)</a>
   </div>
 </section>
 {% endblock content %}
