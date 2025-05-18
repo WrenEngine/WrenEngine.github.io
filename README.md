@@ -39,29 +39,29 @@ Wren is built for speed, clarity, and complete creative control — designed to 
 
 ## 📦 Getting Started
 
-Check out the [Getting Started](https://your-wren-site/getting-started) page for installation and setup guides.
+Check out the [Getting Started](https://wrenengine.github.io/getting-started) page for installation and setup guides.
 
 ---
 
 ## 📄 License
 
 Wren is open source under the **Mozilla Public License 2.0 (MPL 2.0)**.  
-See the [LICENSE](./LICENSE) file for details.
+See the [LICENSE](/LICENSE) file for details.
 
 ---
 
 ## 🤝 Contributing
 
 Want to help build Wren? Contributions are welcome!  
-See the [CONTRIBUTING](./CONTRIBUTING.md) guide for how to get involved.
+See the [CONTRIBUTING](/CONTRIBUTING.md) guide for how to get involved.
 
 ---
 
 ## 🔗 Links
 
-- [Official Website](https://your-wren-site)  
-- [Roadmap](https://your-wren-site/roadmap)  
-- [Features](https://your-wren-site/features)  
+- [Official Website](https://wrenengine.github.io)  
+- [Roadmap](https://wrenengine.github.io/roadmap)  
+- [Features](https://wrenengine.github.io/features)  
 
 ---
 
