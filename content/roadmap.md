@@ -71,7 +71,8 @@ Here’s a rough idea of where Wren is going. This is your public, transparent g
 - [ ] 🤖 AI: State machine, behavior trees, navmesh tools
 - [ ] 🕶️ VR/AR hooks for open standards (WebXR, OpenXR)
 - [ ] 📱 Mobile build/export templates (Android/iOS)
-- [ ] ☁️ Cloud builds / Web-based playground / Online IDE
+- [ ] ☁️ Wren Cloud: Self-hosted dev tools — project sync, cloud builds, team collaboration
+- [ ] 🧪 Online Playground: Web IDE to test Wren games instantly in-browser
 - [ ] 💻 CLI tools for builds, asset pipelines, and CI support
 
 ---
